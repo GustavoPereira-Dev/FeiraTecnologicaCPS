@@ -11,12 +11,20 @@ nav .brand-logo {
   color: #444;
 }
 
+.linka{
+  font-size: 17px;
+}
+
 p {
   line-height: 2rem;
 }
 
 .sidenav-trigger {
   color: #26a69a;
+}
+
+nav .roxo {
+  color:#4c005a; 
 }
 
 .parallax-container {
