@@ -11,7 +11,7 @@ self.addEventListener('install', event => {
 
 
 self.addEventListener('activate', event => {
-    console.log('sw ./ => Evento activate ocorreu, agora pronto pra interceptar fetches');
+    console.log('sw ./ => Evento activate ocorreu, agora pronto pra interceptar fetcheasasass');
 });
 
 
