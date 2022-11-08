@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Metaverso</title>
 
+  <link rel="manifest" href="/pwa/manifest.json?v=8">
   <link rel="shortcut icon" href="imgs\20113052_Kerfin7_NEA_2478-removebg-preview.png">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,21 +14,31 @@
 </head>
 <body>
   <div class="navbar-fixed">
-  <nav class="purple darken-1" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo amber-text">Metaverso</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="#">Inicio</a></li>
+    <nav class="purple darken-3" role="navigation">
+      <div class="nav-wrapper container">
+        
+        <a id="logo-container" href="#" class="brand-logo"><img src="imgs/20221027_235947_0000.png" height="55px" width="80px"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="white-text linka" href="#">Inicio</a></li>
+          <li><a class="white-text linka" href="#DesTour">Desenvolver um Tour</a></li>
+          <li><a class="white-text linka" href="#Softwares">Softwares & Publicação</a></li>
+          <li><a class="white-text linka" href="#Rodape">Rodapé</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+      </div>
+        
+      <ul id="nav-mobile" class="sidenav purple darken-3">
+        <li><a class="white-text linka" href="#">Inicio</a></li>
+        <li><a class="white-text linka" href="#Rodape">Rodapé</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-    </div>
-      <ul id="nav-mobile" class="sidenav purple">
-        <li><a href="#">Inicio</a></li>
-      </ul>
-     
-  </nav>
+        
+  
+       
+  
+    </nav>
 
+    <a id="DesTour"></a>
 
 <div class="grey lighten-3">
     <div class="container">
@@ -51,7 +62,7 @@
             </p>
             <p class="left-align light">A melhor forma de começar um tour virtual é usando o equipamento correto para captura, já que as imagens capturadas serão diretamente responsáveis pelo resultado final da experiência imersiva.</p>
             <figure>
-              <img class="responsive" width="80%" src="imgs/index3/360Heroes-Videos-360-300x168.jpg">
+              <img class="responsive" width="80%" src="imgs/index3/360Heroes-Videos-360-300x168.jpg" alt="Equipamentos" Tittle="Equipamentos para Captura">
               
             </figure>
             <h4>Equipamento ideal para captura fotográfica 360 graus</h4>
@@ -73,7 +84,7 @@
             </p>
             
             <figure>
-              <img class="responsive" width="80%"  src="imgs/index3/Ring-Panohead-Atome-precision-360-300x169.jpg">
+              <img class="responsive" width="80%"  src="imgs/index3/Ring-Panohead-Atome-precision-360-300x169.jpg" alt="Equipamentos" Tittle="Cabeça Panorâmica">
               <figcaption>Equipamento para captura fotográfica</figcaption>
             </figure>
 
@@ -96,10 +107,11 @@
             </p>    
 
             <figure>
-              <img class="responsive" width="80%"  src="imgs/index3/Iris360-Google-Street-View-Trusted-300x200.jpg">
+              <img class="responsive" width="80%"  src="imgs/index3/Iris360-Google-Street-View-Trusted-300x200.jpg" alt="Modelo Profissional" Tittle="Iris360">
               <figcaption>Equipamento alternativos</figcaption>
             </figure>
 
+            <a id="Softwares"></a>
             <h4>Softwares para Emenda</h4>
             <p class="left-align light">Para Criar um Tour Virtual 360 será necessário emendar e tratar as fotografias capturadas de forma que elas formem uma projeção.
                 Atualmente já é possível emendar fotos 360 online, mas para um total controle do processo é melhor ou usar aplicativos específicos para esta finalidade:</p>    
@@ -119,7 +131,7 @@
             </p>
 
             <figure>
-              <img class="responsive" width="80%"  src="imgs/index3/Software-Emenda-Costura-Panorama-360-300x186.jpg">
+              <img class="responsive" width="80%"  src="imgs/index3/Software-Emenda-Costura-Panorama-360-300x186.jpg" alt="Softwares" Tittle="Softwares para Emenda">
               <figcaption>Softwares de Edição 3D</figcaption>
             </figure>
             <h4>Publicação do Tour Virtual 360 graus</h4>
@@ -135,7 +147,7 @@
             <p class="left-align light">Matterport – Sistema proprietário que requer um equipamento próprio de captura e assinatura do serviço para publicação em servidores dedicados à criação e hospedagem do Tour Virtual.</p>
            
             <figure>
-              <img class="responsive" width="100%" src="imgs/index3/Tour-Virtual-360-Planejamento.jpg">
+              <img class="responsive" width="100%" src="imgs/index3/Tour-Virtual-360-Planejamento.jpg" alt="Publicação" Tittle="Publicação do Tour">
               <figcaption>Publicação do Tour</figcaption>
             </figure>
            
@@ -176,7 +188,10 @@
         <div class="col l3 s12">
           <h5 class="white-text">Links Internos</h5>
           <ul>
-            <li><a class="white-text" href="#">Início</a></li>
+            <li><a class="white-text linka" href="#">Inicio</a></li>
+            <li><a class="white-text linka" href="#DesTour">Desenvolver um Tour</a></li>
+            <li><a class="white-text linka" href="#Softwares">Softwares & Publicação</a></li>
+            <li><a class="white-text linka" href="#Rodape">Rodapé</a></li>
           </ul>
         </div>
       </div>

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Metaverso</title>
 
+  <link rel="manifest" href="/pwa/manifest.json?v=8">
   <link rel="shortcut icon" href="imgs\20113052_Kerfin7_NEA_2478-removebg-preview.png">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,22 +14,33 @@
 </head>
 <body>
   <div class="navbar-fixed">
-  <nav class="purple darken-1" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo amber-text">Metaverso</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="#">Inicio</a></li>
+    <nav class="purple darken-3" role="navigation">
+      <div class="nav-wrapper container">
+        
+        <a id="logo-container" href="#" class="brand-logo"><img src="imgs/20221027_235947_0000.png" height="55px" width="80px"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="white-text linka" href="#">Inicio</a></li>
+          <li><a class="white-text linka" href="#VRCell">Utilizar VR no Celular</a></li>
+          <li><a class="white-text linka" href="#Apps">Aplicativos para VR</a></li>
+          <li><a class="white-text linka" href="#Rodape">Rodapé</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+      </div>
+        
+      <ul id="nav-mobile" class="sidenav purple darken-3">
+        <li><a class="white-text linka" href="#">Inicio</a></li>
+        <li><a class="white-text linka" href="#VRCell">Utilizar VR no Celular</a></li>
+        <li><a class="white-text linka" href="#Apps">Aplicativos para VR</a></li>
+        <li><a class="white-text linka" href="#Rodape">Rodapé</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-    </div>
-      <ul id="nav-mobile" class="sidenav purple">
-        <li><a href="#">Inicio</a></li>
-      </ul>
-     
-  </nav>
+        
+  
+       
+  
+    </nav>
 
-
+    <a id="VRCell"></a>
 
 <div class="grey lighten-3">
     <div class="container">
@@ -44,11 +56,13 @@
               variam de R$ 68,00 a R$ 140,00 aqui no Brasil.
             </p>
             <p class="left-align light">Para quem não quer desembolsar R$ 140 em papelão, há uma opção. O Google também disponibiliza um tutorial para que o usuário possa baixar o material e montar próprio visor de realidade virtual, no esquema gambiarra. Depois disso, é só baixar algum aplicativo compatível 
-              com o cardboard e começar a usar. Além disso, no YouTube há diversos outros tutoriais ensinando a fazer um óculos RV com materiais domésticos, e também, nosso site explica mais como desenvolver seu próprio nesse seguinte tópico do link:</p>
+              com o cardboard e começar a usar. Além disso, no YouTube há diversos outros tutoriais ensinando a fazer um óculos RV com materiais domésticos, e também, nosso site explica mais como desenvolver seu próprio <a href="index5.html">nesse seguinte tópico do link:</a></p>
               <figure>
-              <img class="responsive" width="50%"src="imgs/index2/metaverse-virtual-love-collage.jpg">
+              <img class="responsive" width="50%"src="imgs/index2/metaverse-virtual-love-collage.jpg" alt="Apps Meta" Tittle="Aplicativos Metaverso">
             <figcaption>Aplicações do Metaverso</figcaption>
+            <a id="Apps"></a>
             </figure>
+
               <h4>Aplicativos para utilizar o VR</h4>
               <p class="left-align light">Além do Google Cardboard, disponível para Android e iOS, há outros aplicativos que podem ser utilizados para experimentar a realidade virtual no celular, como os seguintes:</p>
               <p class="left-align light"><b>Youtube VR:</b> para experimentar a realidade virtual no Youtube, é preciso baixar e instalar o Youtube VR na PlayStore. Depois, é só alternar para o modo VR e começar a assistir.
@@ -66,7 +80,7 @@
               <p class="left-align light"><b>Unimersiv: </b>O Unimersiv é uma plataforma exclusivamente educacional, e ainda que não seja gratuito, ele conta com diversos conteúdos de diversas disciplinas. Com ele, é possível explorar o corpo humano, visitar Stonehenge, Titanic, a Acrópole ou a Roma antiga, ou até mesmo caminhar 
                 entre dinossauros. O Unimersiv custa US$ 4,99/R$ 10,99 e compatível com Cardboard/Daydream, Gear VR, Oculus Rift e HTC Vive</p>
                 <figure>
-                <img class="responsive" width="50%"src="imgs/index2/YtVr.jpg">
+                <img class="responsive" width="50%"src="imgs/index2/YtVr.jpg" alt="YT VR" Tittle="Youtube VR">
               <figcaption>Youtube VR, um dos aplicativos de experimentação da Realidade Virtual</figcaption>
               </figure>
               <h4>Sites/Aplicativos dedicados a VR</h4>
@@ -85,7 +99,7 @@
               original de VR da companhia, quanto com o Daydream, a evolução natural do software.
             </p>
             <figure>
-            <img class="responsive" width="50%"src="imgs/index2/Oculus.jpg">
+            <img class="responsive" width="50%"src="imgs/index2/Oculus.jpg" alt="Oculus" Tittle="Oculus">
             <figcaption>Oculus, um aplicativo dedicado a VR, também atualmente da Meta</figcaption>
           </figure>
             <p class="left-align light">Caso queira se aprofundar e verificar como funciona esses sistemas na prática, veja esse seguinte vídeo:
@@ -127,7 +141,10 @@
         <div class="col l3 s12">
           <h5 class="white-text">Links Internos</h5>
           <ul>
-            <li><a class="white-text" href="#">Início</a></li>
+            <li><a class="white-text linka" href="#">Inicio</a></li>
+            <li><a class="white-text linka" href="#VRCell">Utilizar VR no Celular</a></li>
+            <li><a class="white-text linka" href="#Apps">Aplicativos para VR</a></li>
+            <li><a class="white-text linka" href="#Rodape">Rodapé</a></li>
           </ul>
         </div>
       </div>
