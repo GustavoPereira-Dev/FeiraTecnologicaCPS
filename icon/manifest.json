@@ -8,12 +8,12 @@
     
     "icons": [
         {
-            "src": "../icon/app-icon-190x166.png",
+            "src": "app-icon-190x166.png",
             "sizes": "190x166",
             "type": "image/png"
         },
         {
-            "src": "../icon/app-icon-520x520.png",
+            "src": "app-icon-520x520.png",
             "sizes": "512x512",
             "type": "image/png"
         }]
