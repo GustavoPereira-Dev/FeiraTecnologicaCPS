@@ -1,17 +1,18 @@
-
-
 self.addEventListener('install', event => {
     console.log('sw ./ => installing...');
 
+    // cache a cat SVG
+    event.waitUntil(
+        caches.open('static-v1').then(cache => cache.add('/cat.svg'))
+    );
     
-    
-    console.log("sw ./ =>  install event detected!!!");
+    console.log("sw ./ =>  install event detected e cat.svg cacheado!!!");
     
 });
 
 
 self.addEventListener('activate', event => {
-    console.log('sw ./ => Evento activate ocorreu, agora pronto pra interceptar fetcheasasass');
+    console.log('sw ./ => Evento activate ocorreu, agora pronto pra interceptar fetches');
 });
 
 
@@ -23,6 +24,7 @@ self.addEventListener('fetch', event => {
     
     // serve the cat SVG from the cache if the request is
     // same-origin and the path is '/dog.svg'
-    
+    if (url.origin == location.origin && url.pathname == '/dog.svg') {
+        event. respondWith(caches.match('/cat.svg'));
+    }
 });
-
