@@ -1,0 +1,20 @@
+{
+    "name": "Metaverso",
+    "short_name": "Meta",
+    "description": "WEB APP para explicar e demonstrar o Metaverso.",
+    "display": "fullscreen",
+    "start_url":"index.html",    
+    "scope": "/",
+    
+    "icons": [
+        {
+            "src": "icon/app-icon-190x166.png",
+            "sizes": "190x166",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/app-icon-520x520.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }]
+}
