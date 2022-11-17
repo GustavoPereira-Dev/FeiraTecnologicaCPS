@@ -3,7 +3,8 @@
     "short_name": "Meta",
     "description": "WEB APP para explicar e demonstrar o Metaverso.",
     "display": "fullscreen",
-    "start_url":"index.html",    
+    "id": "/feiratecnologicacps/",
+    "start_url":"/feiratecnologicacps/",    
     "scope": "/",
     
     "icons": [

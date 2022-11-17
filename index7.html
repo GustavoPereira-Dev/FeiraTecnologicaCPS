@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="manifest" href="./manifest.json?v=8">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="shortcut icon" href="imgs\20113052_Kerfin7_NEA_2478-removebg-preview.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação por Estrelas</title>
+</head>
+<body>
+    <header>
+    <div class="navbar-fixed">
+        <nav class="purple darken-3" role="navigation">
+          <div class="nav-wrapper container">
+            
+            <a id="logo-container" href="index.html" class="brand-logo"><img src="imgs/20221027_235947_0000.png" height="55px" width="80px"></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a class="white-text linka" href="index.html">Site Principal</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          </div>
+          </div>
+            
+            <ul id="nav-mobile" class="sidenav purple darken-3">
+              <li><a class="white-text linka" href="#">Inicio</a></li>
+              <li><a class="white-text linka" href="#Dicas">Dicas e Informações</a></li>
+              <li><a class="white-text linka" href="#SobreNos">Sobre Nós</a></li>
+              <li><a class="white-text linka" href="#Rodape">Rodapé</a></li>
+            </ul>
+            
+      
+           
+      
+        </nav>
+    </header>
+
+    <div class="bgimg"></div>
+    <br>
+    <br>
+    <br>
+    <div class="containerers">
+        <h1>Minha Avaliação</h1>
+        <ol>
+            <li><a href="#" class="star1" onclick="stars1();"><span class="fas fa-star"></span></a></li>
+            <li><a href="#" class="star2" onclick="stars2();"><span class="fas fa-star"></span></a></li>
+            <li><a href="#" class="star3" onclick="stars3();"><span class="fas fa-star"></span></a></li>
+            <li><a href="#" class="star4" onclick="stars4();"><span class="fas fa-star"></span></a></li>
+            <li><a href="#" class="star5" onclick="stars5();"><span class="fas fa-star"></span></a></li>
+        </ol>
+    
+
+    <div class="msg">
+        <p class="p1">Você deu a avaliação de 1 ESTRELA</p>
+        <p class="p2">Você deu a avaliação de 2 ESTRELAS</p>
+        <p class="p3">Você deu a avaliação de 3 ESTRELAS</p>
+        <p class="p4">Você deu a avaliação de 4 ESTRELAS</p>
+        <p class="p5">Você deu a avaliação de 5 ESTRELAS</p>
+    </div>
+    <div class="btns">
+        <button onclick="submit();">Enviar</button>
+    </div>
+</div>
+    <div class="sucess">
+        <h2>Agradecemos o seu Feedback!</h2>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+    
+</body>
+</html>
