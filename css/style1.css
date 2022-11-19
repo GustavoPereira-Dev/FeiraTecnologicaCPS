@@ -4,8 +4,14 @@
     box-sizing: border-box;
   }
   
+  .sidenav-trigger {
+    color: #26a69a;
+  }
 
-
+  .linka{
+    font-size: 17px;
+  }
+  
   .containerers{
     display: flex;
     position: relative;
