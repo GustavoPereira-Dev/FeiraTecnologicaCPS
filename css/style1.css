@@ -99,10 +99,7 @@ select{
 option:not(:checked) { 
   background-color: #FFF !important; 
 }
-::selection {
-  color: red;
-  background: yellow;
-}
+
 .btns button{
   border: none;
   padding: 10px 50px;
