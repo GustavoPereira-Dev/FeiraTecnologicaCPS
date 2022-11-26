@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="shortcut icon" href="imgs\20113052_Kerfin7_NEA_2478-removebg-preview.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
@@ -46,7 +47,96 @@
     <br>
     <br>
     <div class="containerers">
+        <form class="formulario"action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfG8hyIaYPzIHiRFQdulRZKMl14W-AzVwtRIIR0u40ROXFezg/formResponse">
         <h1>Minha Avaliação</h1>
+
+
+       
+            <div class="">
+                <label>Seu email </label>
+                <input type="text" name="emailAddress" required placeholder="Seu email"/>
+            </div>
+    
+            <div class="">
+                <label>Seu nome</label>
+                <input type="text" name="entry.111693812" required placeholder="Seu nome"/>
+            </div>
+    
+            <div class="">
+                
+                    
+                <label class="teste" for="">Qual a sua pontuação em estrelas que daria para o site, de 1 a 5?</label>
+                <ol>
+                
+                <div class="radio">
+                    <label>
+                    <input id="uma estrela" name="entry.1432398466" type="radio" value="Uma Estrela" required/>
+                    <li><a class="star1" onclick="stars1();"><span for="uma estrela" class="fas fa-star"></span></a></li>
+                    
+                    </label>
+                
+                </div>
+                <label>
+                <input type="radio" id="duas estrelas" name="entry.1432398466" value="Duas Estrelas" required/>
+                <li><a class="star2" onclick="stars2();"><span for="duas estrelas" class="fas fa-star"></span></a></li>
+            </label>
+
+            <label>
+                <input type="radio" id="tres estrelas" name="entry.1432398466" value="Tres Estrelas" required/>
+                <li><a class="star3" onclick="stars3();"><span for="tres estrelas" class="fas fa-star"></span></a></li>
+            </label>
+
+            <label>
+                <input type="radio" id="quatro estrelas" name="entry.1432398466" value="Quatro Estrelas"required/>
+                <li><a class="star4" onclick="stars4();"><span for="quatro estrelas" class="fas fa-star"></span></a></li>
+            </label>
+
+            <label>
+                <input type="radio" id="cinco estrelas" name="entry.1432398466" value="Cinco Estrelas"/>
+                <li><a class="star5" onclick="stars5();"><span for="cinco estrelas" class="fas fa-star"></span></a></li>
+            </label>
+        </ol>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div class="">
+                <label>Sua Mensagem</label>
+                <textarea name="entry.1906880977" placeholder="Sua Mensagem"></textarea>
+            </div>
+    
+            
+                
+                <label>Após ver o site, qual é atualmente seu nível de interesse sobre o Metaverso?</label>
+                <br>
+                <br>
+                <select name="entry.1017295687" id="options" required>
+                    <option value="" selected disabled>Escolher</option>
+                    <option value="Pouco">Pouco</option>
+                    <option value="Medio">Médio</option>
+                    <option value="Bastante">Bastante</option>
+                    <option value="Demais">Demais</option>
+                    <option value="Aumentou e muito meu interesse">Aumentou enormemente meu interesse</option>
+                    
+                </select>
+               
+           
+            
+            
+                <div class="btns">
+                <button type="submit">Enviar Formulário</button>
+            </div>
+        </form>
+        
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/language.js"></script>
+        <!--
         <ol>
             <li><a href="#" class="star1" onclick="stars1();"><span class="fas fa-star"></span></a></li>
             <li><a href="#" class="star2" onclick="stars2();"><span class="fas fa-star"></span></a></li>
@@ -54,7 +144,7 @@
             <li><a href="#" class="star4" onclick="stars4();"><span class="fas fa-star"></span></a></li>
             <li><a href="#" class="star5" onclick="stars5();"><span class="fas fa-star"></span></a></li>
         </ol>
-    
+    -->
 
     <div class="msg">
         <p class="p1">Você deu a avaliação de 1 ESTRELA</p>
@@ -63,9 +153,9 @@
         <p class="p4">Você deu a avaliação de 4 ESTRELAS</p>
         <p class="p5">Você deu a avaliação de 5 ESTRELAS</p>
     </div>
-    <div class="btns">
-        <button onclick="submit();">Enviar</button>
-    </div>
+    
+       
+    
 </div>
     <div class="sucess">
         <h2>Agradecemos o seu Feedback!</h2>
