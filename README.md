@@ -4,7 +4,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Metaverso - Demonstrando o poder dessa nova realidade**
 | :label: Tecnologias | html, css, js, MaterializeCSS (tecnologias utilizadas)
-| :rocket: URL         | https://gustavo-henrique-da-silva.github.io/FeiraTecnologicaCPS/
+| :rocket: URL         | https://gustavopereira-dev.github.io/FeiraTecnologicaCPS/
 <p>Bem vindo ao README desse repositório, ele foi desenvolvido em 2022 para a Feira Tecnológica da Etec Zona Leste. O objetivo desse pequeno projeto era demonstrar na prática
 e na teoria essa nova realidade que não está muito distante: A realidade virtual (VR) para o público comum e que não teve acesso a essa tecnologia</p>
 <p>O objetivo principal do projeto era demonstrar, de forma prática e também teórica, o quanto a Realidade Virtual e Imersiva é e será importante para o futuro, por uma apresentação prática no Evento de Feira Tecnológica realizada no Ano de 2022 em Novembro na ETEC, que consistia na liberdade dos convidados e usuários poderem utilizar um Óculos de Realidade Virtual com o jogo desenvolvido na Unity pelo meu <a href="https://github.com/ThiagoMartins11">amigo Thiago</a> e também um sorteio de um pelo site desenvolvido por mim e auxiliado por ele (pelos conteúdos)</p>
