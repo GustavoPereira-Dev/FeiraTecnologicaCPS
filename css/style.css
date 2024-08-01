@@ -11,6 +11,15 @@ nav .brand-logo {
   color: #444;
 }
 
+ul.lista-section li{
+  list-style-type: disc !important;
+  line-height: 2rem;
+}
+
+ol.lista-section li{
+  list-style-type: decimal!important;
+  line-height: 2rem;
+}
 .linka{
   font-size: 17px;
 }
